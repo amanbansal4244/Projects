@@ -1,0 +1,14 @@
+TimerTask started
+Timer task started at:Wed Dec 26 19:16:39 PST 2012
+Timer task finished at:Wed Dec 26 19:16:59 PST 2012
+Timer task started at:Wed Dec 26 19:16:59 PST 2012
+Timer task finished at:Wed Dec 26 19:17:19 PST 2012
+Timer task started at:Wed Dec 26 19:17:19 PST 2012
+Timer task finished at:Wed Dec 26 19:17:39 PST 2012
+Timer task started at:Wed Dec 26 19:17:39 PST 2012
+Timer task finished at:Wed Dec 26 19:17:59 PST 2012
+Timer task started at:Wed Dec 26 19:17:59 PST 2012
+Timer task finished at:Wed Dec 26 19:18:19 PST 2012
+Timer task started at:Wed Dec 26 19:18:19 PST 2012
+TimerTask cancelled
+Timer task finished at:Wed Dec 26 19:18:39 PST 2012

@@ -1,0 +1,12 @@
+Problem : Implement CRUD operation using REST, JPA and Spring boot
+
+How To Run:
+1. Run the application on spring boot server.
+2. Hit URL: 
+
+	POST :  http://localhost:8084/productcrud/products/
+	GETALL :http://localhost:8084/productcrud/products/
+	GET:		http://localhost:8084/productcrud/products/{id}
+	PUT:		http://localhost:8084/productcrud/products/{id}
+	DELETE:	http://localhost:8084/productcrud/products/{id}
+	DELETEALL : http://localhost:8084/productcrud/products/

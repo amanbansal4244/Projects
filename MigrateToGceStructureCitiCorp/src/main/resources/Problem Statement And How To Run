@@ -1,0 +1,6 @@
+Problem : Have to read the data from excel and store into DB
+
+How To Run:
+1. Run the application on spring boot server.
+2. Hit URL: http://localhost:8082/ from browser. 
+3. Select the excel file which is also attached under /src/main/resources/ package in this project.
