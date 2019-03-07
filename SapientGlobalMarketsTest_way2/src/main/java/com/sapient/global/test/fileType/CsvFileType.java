@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -18,6 +19,8 @@ import com.sapient.global.test.model.TransactionRecordDateSorting;
 import com.sapient.global.test.model.TransactionRecordPrioritySorting;
 import com.sapient.global.test.model.TransactionRecordTypeSorting;
 import com.sapient.global.test.utility.TransactionRecordUtility;
+
+
 import com.sapient.global.test.utility.TransactionRecordSortingUtility;
 
 
@@ -66,5 +69,28 @@ public class CsvFileType implements FileType {
 		}
 	}
 
-	
+	/*private boolean isCSV_Valid() {
+		Boolean failFast = false; 
+		List pathSubstitutions = new ArrayList(); 
+		//add a substitution path
+		pathSubstitutions.add(new Substitution("file://something", "/home/xxx"));
+		List<FailMessage> messages = CsvValidator.validate(
+				"/data/csv/data.csv",
+				"/data/csv/data-schema.csvs",
+				failFast,
+				pathSubstitutions,
+				true);
+
+				 if(messages.isEmpty()) {
+				    System.out.println("Completed validation OK");
+				 } else {
+				    for(FailMessage message : messages) {
+				        if(message instanceof WarningMessage) {
+				            System.out.println("[WARN] " + message.getMessage());
+				        } else {
+				            System.out.println("[ERROR] " + message.getMessage());
+				        }
+				    }
+	}
+	*/
 }

@@ -23,6 +23,6 @@ public class SapinetGlobalTestMain {
 
 	public static void main(String[] args) throws FileTypeNotSupportedException, IOException {
 		SapinetGlobalTestMain obj = new SapinetGlobalTestMain();
-		obj.openAndReadFile("SampleData.xls");
+		obj.openAndReadFile("SampleData.csv");
 	}
 }
